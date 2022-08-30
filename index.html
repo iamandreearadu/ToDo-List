@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO APP</title>
+
+    <!-- START FONT AWESOME STYLES -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- END FONT AWESOME STYLES -->
+
+    <!-- START BOOTSTRAP STYLES -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- END BOOTSTRAP STYLES-->
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>TO DO LIST</h1>
+    <form id="form">
+      <input
+        id="input"
+        type="text"
+        class="input"
+        placeholder="Enter your to do"
+        autocomplete="off"
+      />
+      <!-- <select class="select-hour">
+        <option selected value="hour">hour</option>
+        <option id="hour" value="00">00</option>
+        <option id="hour" value="01">01</option>
+        <option id="hour" value="02">02</option>
+        <option id="hour" value="02">02</option>
+        <option id="hour" value="03">03</option>
+        <option id="hour" value="04">04</option>
+        <option id="hour" value="05">05</option>
+        <option id="hour" value="06">06</option>
+        <option id="hour" value="07">07</option>
+        <option id="hour" value="08">08</option>
+        <option id="hour" value="09">09</option>
+        <option id="hour" value="10">10</option>
+        <option id="hour" value="11">11</option>
+        <option id="hour" value="12">12</option>
+      </select>
+      <select class="select-minutes">
+        <option selected value="mins">mins</option>
+        <option id="minutes" value="00">00</option>
+        <option id="minutes" value="10">10</option>
+        <option id="minutes" value="20">20</option>
+        <option id="minutes" value="30">30</option>
+        <option id="minutes" value="40">40</option>
+        <option id="minutes" value="50">50</option>
+      </select> -->
+    </form>
+    <ul class="todos" id="todos"></ul>
+    <small
+      >Left click to toggle complete <br />
+      Right click to delete the todo</small
+    >
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>

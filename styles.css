@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c2c2c;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  color: rosybrown;
+  text-align: center;
+  font-size: 5rem;
+  opacity: 0.8;
+  padding: 2rem;
+}
+
+form {
+  width: 450px;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0 3px 10px rgb(178, 176, 176, 0.8);
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  border: none;
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  font-size: 1.8rem;
+}
+
+.input::placeholder {
+  color: rgb(233, 233, 233);
+}
+
+.todos {
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  padding: 0rem;
+  list-style-type: none;
+  width: 450px;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0 3px 10px rgb(178, 176, 176, 0.8);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  display: block;
+}
+
+.todos li {
+  border-top: 1px solid whitesmoke;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.todos li.completed {
+  text-decoration: line-through;
+  color: rgb(227, 210, 210);
+}
+/* 
+.select-hour {
+  border: none;
+  width: 5rem;
+  color: rgb(186, 186, 186);
+}
+.select-minutes {
+  border: none;
+  width: 5rem;
+  color: rgb(186, 186, 186);
+} */
+
+option {
+  text-align: center;
+}
+
+small {
+  color: rosybrown;
+  opacity: 0.8;
+  margin-top: 3rem;
+  text-align: center;
+}
