@@ -43,7 +43,7 @@ form {
 }
 
 .todos {
-  background-color: rgba(188, 143, 143, 0.398);
+  background-color: rgba(188, 143, 143, 0.598);
   margin: 0%;
   padding: 0rem;
   list-style-type: none;
@@ -84,7 +84,7 @@ option {
 }
 
 small {
-  color: rosybrown;
+  color: rgba(244, 237, 237, 0.92);
   opacity: 0.8;
   margin-top: 3rem;
   text-align: center;
